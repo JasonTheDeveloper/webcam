@@ -11,7 +11,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/JasonTheDeveloper/webcam"
+	"github.com/aamcrae/webcam"
 )
 
 func readChoice(s string) int {

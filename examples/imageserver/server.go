@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/JasonTheDeveloper/webcam"
-	"github.com/JasonTheDeveloper/webcam/frame"
-	"github.com/JasonTheDeveloper/webcam/snapshot"
+	"github.com/aamcrae/webcam"
+	"github.com/aamcrae/webcam/frame"
+	"github.com/aamcrae/webcam/snapshot"
 )
 
 var port = flag.Int("port", 8080, "Web server port number")
