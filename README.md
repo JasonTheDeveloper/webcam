@@ -1,6 +1,6 @@
 # go-webcam
 
-[![Build Status](https://travis-ci.org/blackjack/webcam.png?branch=master)](https://travis-ci.org/blackjack/webcam) [![GoDoc](https://godoc.org/github.com/google/go-github/github?status.svg)](https://godoc.org/github.com/blackjack/webcam)
+[![Build Status](https://travis-ci.org/JasonTheDeveloper/webcam.png?branch=master)](https://travis-ci.org/JasonTheDeveloper/webcam) [![GoDoc](https://godoc.org/github.com/google/go-github/github?status.svg)](https://godoc.org/github.com/JasonTheDeveloper/webcam)
 
 This is a **go** library for working with webcams and other video capturing devices.
 It depends entirely on [V4L2](http://linuxtv.org/downloads/v4l-dvb-apis/) framework, thus will compile and work only on **Linux** machine.
@@ -8,13 +8,13 @@ It depends entirely on [V4L2](http://linuxtv.org/downloads/v4l-dvb-apis/) framew
 ## Installation
 
 ```console
-$ go get github.com/blackjack/webcam
+$ go get github.com/JasonTheDeveloper/webcam
 ```
 
 ## Usage
 
 ```go
-import "github.com/blackjack/webcam"
+import "github.com/JasonTheDeveloper/webcam"
 // ...
 cam, err := webcam.Open("/dev/video0") // Open webcam
 if err != nil { panic(err.Error()) }
@@ -44,7 +44,7 @@ for {
   }
 }
 ```
-For more detailed example see [examples folder](https://github.com/blackjack/webcam/tree/master/examples)
+For more detailed example see [examples folder](https://github.com/JasonTheDeveloper/webcam/tree/master/examples)
 The number of frame buffers used may be set as:
 ```go
 // If already streaming, stop streaming.

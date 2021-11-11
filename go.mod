@@ -1,4 +1,4 @@
-module github.com/aamcrae/webcam
+module github.com/JasonTheDeveloper/webcam
 
 go 1.16
 

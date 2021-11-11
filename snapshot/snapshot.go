@@ -4,8 +4,8 @@ package snapshot
 import (
 	"fmt"
 
-	"github.com/blackjack/webcam"
-	"github.com/blackjack/webcam/frame"
+	"github.com/JasonTheDeveloper/webcam"
+	"github.com/JasonTheDeveloper/webcam/frame"
 )
 
 const (
